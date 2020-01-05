@@ -1,0 +1,917 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Chan-Yun Yang</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+</style>
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Chan-Yun Yang</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-thumbnail mx-auto mb-2" src="img/teacher.jpg" alt="Cinque Terre">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">關於我</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#courses">教授課程</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#lab">實驗室簡介</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#lab-students">實驗室成員</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">研究方向</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#results">研究成果</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#publications">刊物</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#researchplans">研究計畫</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#family">實驗室花絮</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h2 class="mb-4">楊棧雲
+          <span class="text-primary mt-5">教授</span>
+        </h2>
+        <div class="subheading mb-5"> 音律電機資訊大樓 815室 . (02) 8674-1111 轉 68807.
+        </div>
+        <img class="img-fluid img-thumbnail mx-auto mb-2" height="25" width="25" src="img/mail.png" >
+         <a href="mailto:cyyang@mail.ntpu.edu.tw">cyyang@mail.ntpu.edu.tw</a>
+        <hr class="featurette-divider">
+        <div class="row">
+          <div class="col-12 col-xl-6">
+            <h3 class="mb-3">學歷</h3>
+            <div class="resume-item mb-2">
+              <div class="resume-content">
+                <div class="subheading mb-3">台灣大學 生物產業機電工程系 博士  -  <span class="text-primary">2001</span></div>
+              </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+              <div class="resume-content">
+                <div class="subheading mb-3">台灣大學 農業機械工程系 碩士  -  <span class="text-primary">1989</span></div>
+              </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+              <div class="resume-content">
+                <div class="subheading mb-3">台灣大學 農業機械工程系 學士  -  <span class="text-primary">1985</span></div>
+              </div>
+            </div>
+            <hr class="featurette-divider">
+            <h3 class="mb-3">經歷</h3>
+                        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+              <div class="resume-content">
+                <div class="subheading mb-3">國立臺北大學 電機系 教授 - <span class="text-primary">2012 ~ 現在</span></div>
+              </div>
+            </div>
+                                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-2">
+              <div class="resume-content">
+                <div class="subheading mb-3">臺北大學電機系系主任 - <span class="text-primary">2015 ~ 2018</span></div>
+              </div>
+            </div>
+
+          <hr class="featurette-divider d-xl-none">
+          </div>
+          <div class="col-12 col-xl-6">
+            <h3 class="mb-3">榮譽</h3>
+            <ul>
+              <li>國立臺北大學學術研究獎, 2015.</li>
+              <li>優秀專利技術獎, 中國北京, 2014.</li>
+              <li>國立臺北大學學術研究獎, 2014.</li>
+              <li>科技部「延攬及留住大專校院特殊優秀人才實施彈性薪資方案」獲獎, 2014.</li>
+              <li>LED創意彩燈設計比賽, 臺灣高雄, 佳作, 2013.</li>
+              <li>教育部100年度「未獲邁向頂尖大學計畫及獎勵大學教學卓越計畫之大專院校實施特殊優秀人才彈性薪資」獲獎.</li>
+              <li>台灣復健工程與輔具科技學會發起委員, 副秘書長.</li>
+              <li>Helmet Having Active Alert Device, 瑞士日內瓦發明展銀牌獎, 2010.</li>
+              <li>Helmet Having Active Alert Device, 首爾發明展金牌獎, 2009.</li>
+              <li>Helmet Having Active Alert Device, 德國紐倫堡發明展金牌獎, 2009.</li>
+              <li>可主動警示之安全帽, 台北國際發明及技術交易展發明競賽金牌獎, 2009.</li>
+              <li>茂迪盃 – 太陽能光電應用設計創意競賽, 銅牌獎, 2010. </li>
+              <li>2008年全國LED創意設計競賽, 應用產品設計組, 第一名, 2009</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="courses">
+      <div class="w-100">
+        <h2 class="mb-5">教授課程</h2>
+        <div class="row">
+          <ul class="mb-0">
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U2286&amp;g_year=102&amp;g_term=1" target="_blank">U2286, 電子電路I, Electronic Circuits (I) </a></li>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U2286&amp;g_year=102&amp;g_term=2" target="_blank">U2286, 電子電路II, Electronic Circuits (II) </a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U2352&amp;g_year=102&amp;g_term=2" target="_blank">U2352, 電子電路實驗, Electronic Circuits Laboratory</a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U2125&amp;g_year=103&amp;g_term=1" target="_blank">U2125, 電路學Ⅰ , Electrical Circuits (I)</a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U2076&amp;g_year=102&amp;g_term=2" target="_blank">U2076, 電路學Ⅱ, Electrical Circuits (II)</a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U2296&amp;g_year=103&amp;g_term=1" target="_blank">U2296, 數位系統實驗 , Digital System Laboratory</a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=M5227&amp;g_year=103&amp;g_term=1" target="_blank">M5227, U3212, 機器學習 , Machine Learning </a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=M5227&amp;g_year=102&amp;g_term=2" target="_blank">M5227, 智慧型控制 , Intelligent Control</a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=M5227&amp;g_year=102&amp;g_term=1" target="_blank">M5227, 車輛工程學 , Vehicle Engineering </a>
+              <a class="list-group-item" href="https://sea.cc.ntpu.edu.tw/pls/dev_stud/course_query.queryGuide?g_serial=U3048&amp;g_year=103&amp;g_term=1&quot;&quot;" target="_blank">U3048, 專題製作Ｉ , Senior Projects I </a>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lab">
+      <div class="w-100">
+        <h2 class="mb-5">智慧建模與控制實驗室</h2>
+
+ <img class="img-fluid img-thumbnail mx-auto mb-2" src="img/lab_image.jpg" class="center" alt="Cinque Terre" height="600" width="800" >
+
+            <div class="subheading mb-3"></div>
+            <h4 class="mb-3">地址: 音律電機資訊大樓607室</h4>
+            <h4 class="mb-3">電話: (02)8674-1111 轉 68839</h4>
+            <p class="lead mb-5">智慧建模與控制實驗室的設立最初是期望在人與機器系統操作的經驗中尋找較為柔軟、具人性化操作介面，因援引計算方法為工具以為智慧型決策之設計。進而延伸探討各種人與機器互動系統的問題，期望在人機互動的系統中，在大量數據中找到系統輸入與輸出間行為的準則，加以建模，再利用控制理論與系統工程建立預測與控制機制。其應用主要在具行為能力之人體、機具等移動行為之偵測、建模、及控制等。本實驗室較著重有行為能力對象其運動學或動力學之智慧建模，如機器人、生物力學、及人機互動頻繁之機具等。其整體系統之整合亦包括於本實驗室有興趣之研究方向。</p>
+          </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="lab-students">
+      <div class="w-100">
+        <h2 class="mb-5">實驗室成員</h2>
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/Joanne.jpg">
+              <div class="card-body">
+                <p class="card-text"> 易家安 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">a914422@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+         <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/Evei.jpg">
+              <div class="card-body">
+                <p class="card-text"> 陳奕瑋 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">s710882309@gm.ntpu.edu.tw</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/shanaiya.jpg">
+              <div class="card-body">
+                <p class="card-text">Sainzaya Galsanbadam</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">sainaa425@yahoo.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/nilantha.jpg">
+              <div class="card-body">
+                <p class="card-text">Nilantha Premakumara</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">nilaprem108@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/chamani.jpg">
+              <div class="card-body">
+                <p class="card-text">Chamani Shiranthika</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">chamanijks2@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/0.png">
+              <div class="card-body">
+                <p class="card-text"> 林承昱 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">asdf7454@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/9.jpg">
+              <div class="card-body">
+                <p class="card-text"> 謝東霖 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">newlife20102@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/7.jpg">
+              <div class="card-body">
+                <p class="card-text"> 鄭義文 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">topicight@hotmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/8.jpg">
+              <div class="card-body">
+                <p class="card-text"> 周擁祥 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">  bigegg81@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/5.jpg">
+              <div class="card-body">
+                <p class="card-text"> 鄭蕙娟 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">michelle4233536@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/6.jpg">
+              <div class="card-body">
+                <p class="card-text"> 陳佩榆 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">s305713@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/1.jpg">
+              <div class="card-body">
+                <p class="card-text"> 林韋志 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">wclin892@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/2.jpg">
+              <div class="card-body">
+                <p class="card-text"> 余維哲 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">b26764719@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/3.jpg">
+              <div class="card-body">
+                <p class="card-text"> 涂逸宏 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">satan2963@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/4.jpg">
+              <div class="card-body">
+                <p class="card-text"> 潘星佑 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">jmspan35@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" style="height: 265px; width: 100%; display: block;" src="img/students/0.png">
+              <div class="card-body">
+                <p class="card-text"> 游明揚 </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <small class="text-muted">f8980042@gmail.com</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">研究方向</h2>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h3 class="featurette-heading">運動學、動力學與運動傳感器之發展</h3>
+            <p class="lead">運動傳感器的新發展，如加速度計、陀螺儀、及其他微型感測器等，非常有利於重新思考並開發一些運動敏感的課題，尤其在生物醫學應用上，並本質地貼近其運動機構的設計，以適應地達到良好的機動性。這些議題往往對應於分析它的運動學和動力學，因此關於這些議題的運動學和動力學建模顯得格外重要，機器學習的學習機制是一個良好的建模方式，透過這些熟習的技術，試圖找到達成目標的一般方法</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="img/research/A.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h3 class="featurette-heading">運動互動機器人之智慧建模與控制</h3>
+            <p class="lead">在機器人領域，引進智慧型計算和控制策略其主要目的之一是為了產生安全與優雅的運動來與人類互動。本主題旨在透過對於研究對象的行為建模技術，反演研究目標的逆向問題，以建立並進行適當的相應控制策略。在此特定主題上，我們首先著重在機器人與人類某些互動行為的運動控制。</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="img/research/B.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h3 class="featurette-heading">與人類環境互動之機器人動態路徑規劃與追踪</h3>
+            <p class="lead">由於智慧化計算與控制技術的發展，面對一個高度動態變化的環境，發展移動智能體其其相應的路徑規劃和導航，具有相當的潛力。本研究整合相關的新興工具與技術，適應地動態規劃機器人/車輛之移動航程，並以為與環境、人類互動之路徑跟踪。其應用可為如醫院，商場，或圖書館等。</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="img/research/C.jpg" data-holder-rendered="true">
+          </div>
+        </div>
+        <hr class="featurette-divider">
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h3 class="featurette-heading">機器學習與支持向量機</h3>
+            <p class="lead">一般，工程問題的分歧常是驅動機器學習技術開發向前的力量，這個分歧也揭露了開發各種不同技術尚有發展空間的事實。本質上，根植於其基本遊戲規則的機器學習技術發展，更加地有意義且影響更為久遠。從此一角度，領域內相關主題的廣泛調查，和深入問題事實的仔細思考，有時會帶來顯著的創新。在本主題中，我們沿用支持向量機作為一個範例，來進行這樣的檢查推敲。若觸發足夠的靈感，經常導致強烈而具有重大意義的問題解決方案。</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="img/research/D-1.png" data-holder-rendered="true">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+    
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="results">
+      <div class="w-100">
+        <h2 class="mb-5">研究成果</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+              <iframe style="height: 325px; width: 100%; display: block;" src="https://www.youtube.com/embed/IFFttsY-eN8" frameborder="0" allowfullscreen=""></iframe>
+              <div class="card-body">
+                <p class="card-text">即時動態路徑模擬</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+              <iframe style="height: 325px; width: 100%; display: block;" src="https://www.youtube.com/embed/U3v9xcsuPpI" frameborder="0" allowfullscreen=""></iframe>
+              <div class="card-body">
+                <p class="card-text">輪椅機器人路徑跟隨控制</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+              <iframe style="height: 325px; width: 100%; display: block;" src="https://www.youtube.com/embed/bS9bYSnNgKA" frameborder="0" allowfullscreen=""></iframe>
+              <div class="card-body">
+                <p class="card-text">即时图像识别，用于乐高机器人导航</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+                <iframe src="https://docs.google.com/presentation/d/11eAfs2VfFq8ct1mhNNsTURl2zFfs0o6ksgTT0STtf14/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" style="height: 325px; width: 100%; display: block;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+              <div class="card-body">
+                <p class="card-text">機器學習與支持向量機</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="publications">
+      <div class="w-100">
+        <h2 class="mb-5">著作</h2>
+        <div class="subheading mb-3">Journal Articles</div>
+        <ul>
+         <li> Chien-Yen Wang, Chan-Yun Yang, Shadi Banitaan, Chaomin Lou and Sainzaya Galsanbadam, Coarse grid partition for speeding up a* robot navigation, Journal of the Chinese Institute of Engineers, Accepted. (SCI) </li>
+ <li> Chan-Yun Yang, Pei-Yu Chen, Te-Jen Wen and Gene Eu Jan, IMU consensus exception detection with dynamic time warping - a comparative approach, Sensors, https://doi.org/10.3390/s19102237, 2019, 19(10), 2237. (SCI) </li>
+ <li> Kuo-Ho Su, Syuan-Jie Huang and Chan-Yun Yang, Development of robotic grasping gripper based on smart fuzzy controller, International Journal of Fuzzy Systems, vol. 17, no. 4, pp 595–608, 2015. (SCI)  </li>
+ <li> Jianjun Wang, Jing Zhang, Wendong Wang and Chan-Yun Yang, A perturbation analysis of nonconvex block-sparse compressed sensing, Communications in Nonlinear Science and Numerical Simulation, vol. 29, no. 1-3, pp. 416–426, 2015. (SCI)  </li>
+ <li> Chan-Yun Yang, Jian-Jun Wang, Jui-Jen Chou and Feng-Li Lian, Confirming robustness of fuzzy support vector machine via ξ-α bound, Neurocomputing, vol.162, pp. 256–266, 2015. (SCI) </li>
+ <li> Kuo-Ho Su, Feng-Li Lian, and Chan-Yun Yang, Development of vision-based navigation system for wheeled agent, Asian Journal of Control, vol. 16, no.6, pp. 1–17, 2014. (SCI) </li>
+ <li> Chan-Yun Yang, Hooman Samani and Gene Eu Jan, Robust CMOS camera module lens calibration by support vector regression, International Journal of Control Theory and Applications, vol. 6, no. 2, pp. 139–151, 2013.  </li>
+ <li> Jianjun Wang, Chan-Yun Yang and Zhigang Gu, Lp error estimate for minimal norm SBF interpolation, Journal of Inequalities and Applications, vol. 2013:510, 2013. (SCI)  </li>
+ <li> Chan-Yun Yang, Liou-Chun Chang, Hooman Samani and Ryohei Nakatsu, Ameliorated austenite carbon content control in austempered ductile irons by support vector regression, Mathematical Problems in Engineering, 2013: Article ID 362601, 2013. (SCI)  </li>
+ <li> Chan-Yun Yang, Jui-Jen Chou and Feng-Li Lian, Robust classifier learning with fuzzy class labels for large-margin support vector machines, Neurocomputing, vol. 99, pp. 1–14, 2013. (SCI) </li>
+ <li> Chan-Yun Yang, Jr-Syu Yang and Feng-Li Lian, Safe and smooth: mobile agent trajectory smoothing by SVM, International Journal of Innovative Computing Information and Control, vol. 8, no. 7B, pp. 4959–4978, 2012. (SCI) </li>
+ <li> Chan-Yun Yang and Jian-Jun Wang, ξ-α estimator for fuzzy support vector machine, Advanced Science Letters, vol. 11, no. 1, pp. 479–484, 2012. (EI)  </li>
+ <li> Jian-Jun Wang, Chan-Yun Yang, and Jia Jing, Estimation of approximating rate for neural network in L(ω, p) spaces, Journal of Applied Mathematics, 2012: Article ID 636078, 2012. (SCI) </li>
+ <li> Jianjun Wang, Bai-Li Chen and Chan-Yun Yang, Approximation of algebraic and trigonometric polynomials by feedforward neural networks, Neural Computing and Applications, vol. 21, no. 1, pp. 73–80, 2012. (SCI) </li>
+ <li>  Yao-Wen Hsueh and Chan-Yun Yang, Sensing tool breakage in face milling by support vector machine, Advanced Materials Research, vol. 264–265, pp. 991–996, 2011. (EI) </li>
+ <li>  Jianjun Wang, Chan-Yun Yang and Shukai Duan, Approximation order for multivariate Durrmeyer operators with Jacobi weights, Abstract and Applied Analysis, 2011: Article ID 970659, 2011. (SCI) </li>
+ <li>  Chan-Yun Yang, Jr-Syu Yang and Jian-Jun Wang, Margin calibration in SVM class-imbalanced learning, Neurocomputing, vol. 73, pp. 397–411, 2009. (SCI) </li>
+ <li> Chan-Yun Yang, Che-Chang Hsu and Jr-Syu Yang, Stray example sheltering by loss regularized SVM and kNN preprocessor, Neural Processing Letters, vol. 29, pp. 7–27, 2009. (SCI)  </li>
+ <li>  Chan-Yun Yang, Highlighting heterogeneous samples in support vector machines’ training, Neurocomputing, vol. 72, pp. 218–230, 2008. (SCI)  </li>
+ <li> Yao-Wen Hsueh and Chan-Yun Yang, Tool breakage diagnosis in face milling by support vector machine, Journal of Materials Processing Technology, vol. 209, pp. 145–152, 2009. (SCI)  </li>
+ <li> Yao-Wen Hsueh and Chan-Yun Yang, Prediction of tool breakage in face milling using support vector machine, International Journal of Advanced Manufacturing Technology, vol. 37, pp. 872–880, 2008. (SCI)  </li>
+ <li> Che-Chang Hsu, Chan-Yun Yang, and Jr-Syu Yang, Associating kNN and SVM for higher classification accuracy, Lecture Notes in Artificial Intelligence, vol. 3801, pp. 550–555, 2005. (SCI)  </li>
+ <li> Chan-Yun Yang, Support vector classifier with a fuzzy-value class label, Lecture Notes in Computer Science, vol. 3173, pp. 506–511, 2004. (SCI) </li>
+ <li>  Chan-Yun Yang and Jui-Jen Chou, Modeling the rotifer classifier with non-parametric hybrid kNN rules - a comparative evaluation approach, Image and Vision Computing, vol. 23, 4, pp. 427–439, 2005. (SCI) </li>
+ <li>  Chan-Yun Yang and Jui-Jen Chou, Entropy on grey relational analysis, The Journal of Grey System, vol. 13, no. 4, pp. 313–320, 2001.  </li>
+ <li>  Chan-Yun Yang and Jui-Jen Chou, Classification of rotifers with machine vision by shape moment invariants, Aquacultural Engineering, vol. 24, pp. 33–57, 2000. (SCI) </li>
+
+        </ul>
+
+        <div class="subheading mb-3">Conference Papers</div>
+        <ul>
+<li>  Chia-An Yi, Yu-Ling Wang, Huei-Yang Lai, Yi-Wei Chen and Chan-Yun Yang, “Bearing fault diagnosis with deep learning models,” Submitted to International Conference on Image Processing and Robotics. Negombo, Sri Lanka, March, 2020. </li>
+<li>  Kuan-Min Huang, Tung-Lin Hsieh, Chia-An Yi, Hooman Samani and Chan-Yun Yang, “IoT driving assistant system for elderly,” In Proc. of 4th International Conference on Information Technology Research, Sri Lanka, Dec. 2019. (EI) </li>
+<li>  Chai-Chin Wang, Hooman Samani and Chan-Yun Yang, “Object detection with deep learning for underwater environment,” In Proc. of 4th International Conference on Information Technology Research, Sri Lanka, Dec. 2019. (EI) </li>
+<li>  C. Shiranthika, Nilantha Premakumara, J.K.C. Shyalika, Surangani Bandara, Sagara Sumathipala, Chan–Yun Yang, S.M.J.H. Nisansala, “An Advanced Vehicle Warning System to Prevent Road Accidents” In Proc. of 16th International Conference on Automation Technology, Taiwan, Nov.2019.</li>
+<li>  Liyu Yu, Kalpana Settu, B. H. Sudantha and Chan-Yun Yang Convolutional equalizer - a convolutional approach to equalize input features in dimension, In Proc.of IEEE International Conference on System Science and Engineering 2019, Ho Chi Minh City, Vietnam, Apr. 2019. (EI) </li>
+<li>  Chan-Yun Yang, Jr-Syu Yang and Liyu Yu. A short survey on adaptive algorithms in identifying wiener models, In Proc. of 3rd International Conference on Information Technology Research, Colombo, Sri Lanka, Dec. 2018. (EI)  </li>
+<li>  Tung-Lin Hsieh, Bo-Chien Zheng, Fu-Shan Lin and Chan-Yun Yang, An IoT peripheral sensor integration to assist elderly drivers, In Proc. of 2018 International Automatic Control Conference (CACS 2018), Chungli, Taiwan, Nov. 2018. (EI)  </li>
+<li>  Chan-Yun Yang, Chen-Yu Lin, Sainzaya Galsanbadam and Hooman Samani, Multivariable support vector regression with multi-sensor network data fusion. In Proc. of 2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC2018), Miyazaki, Japan, Oct. 2018. (EI)  </li>
+<li>  Chien-Yu Su, Hooman Samani, Chan-Yun Yang and Owen Noel Newton Fernando, Doctor robot with physical examination for skin disease diagnosis and telemedicine application, In Proc. of 2018 International Conference on System Science and Engineering (ICSSE 2018), New Taipei City, Taiwan, Jun. 2018. (EI) </li>
+<li>   Hong-Yu Lin, I-Wen Cheng, Yu-Hsuan Huang, Hung-Chun Liu, Yu-Hsin Lin, Chan-Yun Yang, Hooman Samani and Ying-Jen Chen, Applying socket on connecting Ethercat and OpenPLC, In Proc. of 2018 International Conference on System Science and Engineering (ICSSE 2018), New Taipei City, Taiwan, Jun. 2018. (EI) </li>
+<li>  Po-Han Hsu, Sainzaya Galsanbadam, Jr-Syu Yang and Chan-Yun Yang, Evaluating Machine Learning Varieties for NBA Players' Winning Contribution, In Proc. of 2018 International Conference on System Science and Engineering (ICSSE 2018), New Taipei City, Taiwan, Jun. 2018. (EI)  </li>
+<li>  Po-Han Hsu, Chen-Yu Lin, Cheng-Ming Hu and Chan-Yun Yang, An early warning device using remote motion detection for recurrent transient ischaemic attack, In Proc. of 2nd International Conference on Information Technology Research (ICITR 2017), Moratuwa, Sri Lanka. Dec. 2017. </li>
+<li>  Sainzaya Galsanbadam1, Po-Han Hsu and Chan-Yun-Yang, Robust balance control of rotary inverted pendulum, In Proc. of 2nd International Conference on Information Technology Research (ICITR 2017), Moratuwa, Sri Lanka, Dec. 2017.  </li>
+<li>  Galsanbadam Sainzaya, Fan-Nong Yu, Tung-Lin Hsieh and Chan-Yun Yang, LQR control with refined PID to balance rotary inverted pendulum with time-varying uncertainty, In Proc. of 2017 International Conference on Fuzzy Theory and Its Applications (iFUZZY 2017), Kenting, Taiwan, Sep. 2017. (EI) </li>
+<li>  Chan-Yun Yang, Gene Eu Jan, Hooman Samani and Liyu Yu, Modeling IoT multi-sensory system - A recurrent function approximation by support vector regression, In Proc. of 2017 IEEE International Conference on Systems, Man and Cybernetics (IEEE SMC 2017), Banff, Canada, May 2017. (EI) </li>
+<li>  Jr-Syu Yang, Chan-Yun Yang, Gene Eu Jan and Tung-Lin Hsieh, Robotic interaction via path planning − a viewpoint from functionalist sociology, In Proc. of 2017 IEEE International Conference on Networking, Sensing and Control, Calabria, Italy, Mar. 2017. (EI) </li>
+<li>  Yung-Hsiang Chou, Hui-Chuan Cheng, Chih-Hsiu Cheng, Kuo-Ho Su and Chan-Yun Yang, Dynamic time warping for IMU based activity detection, In Proc. of 2016 IEEE International Conference on Systems, Man, and Cybernetics, Budapest, Hungary, Oct. 2016. (EI) </li>
+<li>   Pei-Yu Chen, Hui-Chuan Cheng, Chih-Hsiu Cheng and Chan-Yun Yang, A development of activity-detection mobile app for post mini-stroke homecare, 10th International Conference on Complex Medical Engineering, Tochigi, Japan, Aug. 2016.  </li>
+<li>  Feng-Hsu Lee, Shih-Cheney Hsiao, Pan Huan-Ning, Hooman Samani and Chan-Yun Yang, Design and development of a personal robot doctor for healthcare, In Proc. of IEEE International Conference on System Science and Engineering, Nantou, Taiwan, Jul. 2016. (EI) </li>
+<li>  Yi-Wen Cheng, Pei-Yu Chen, Chan-Yun Yang and Hooman Samani, IMU based activity detection for post mini-stroke healthcare, In Proc. of IEEE International Conference on System Science and Engineering, Nantou, Taiwan, Jul. 2016. (EI)  </li>
+<li>  Yung-Sheng Shih, Hooman Samani and Chan-Yun Yang, Internet of things for human-pet interaction, In Proc. of IEEE International Conference on System Science and Engineering, Nantou, Taiwan. Jul. 2016. (EI)  </li>
+<li>  Yi-Wen Cheng, Te-Jen Wen, Hui-Chuan Cheng and Chan-Yun Yang﹐Distance weighted fuzzy k-NN SVM, In Proc. of 13th IEEE International Conference on Networking, Sensing and Control, Mexico City, Mexico, Apr. 2016. (EI) </li>
+<li>  Yung-Hsiang Chou, Pei-Yu Chen, Chan-Yun Yang and Jian-Jun Wang, Make various-length vectors equal in length: a convolutional approach, 2015 International Conference on Fuzzy Theory and Its Applications, Yilan, Taiwan. Nov. 18-20, 2015. </li>
+<li>  Hui-Chuan Cheng, Chan-Yun Yang, Gene Eu Jan and Angela Shin-yih Chen. Fuzzy k-NN SVM, In Proc. of 2015 IEEE International Conference on Systems, Man, and Cybernetics, Hong Kong, Oct. 2015. (EI) </li>
+<li>  Pei-Yu Chen, Feng-Li Lian, Kuo-Ho Su, Jr-Syu Yang and Chan-Yun Yang, Social function of active robotic path planning, In Proc. of IEEE International Conference on System Science and Engineering, Iwate, Japan, July 6-8, 2015. (EI) </li>
+<li>  Kuo-Ho Su, Duy-Thanh Pham and Chan-Yun Yang, Fuzzy model control for maglev suspension system, In Proc. of IEEE International Conference on System Science and Engineering, Iwate, Japan, July 6-8, 2015. (EI)  </li>
+<li>  Wei-Chih Lin, Chan-Yun Yang, Gene Eu Jan and Jr-Syu Yang, Penalty and margin decomposition - an inspection of loss function regularization in SVM, In Proc. of 12th IEEE International Conference on Networking, Sensing and Control, Taipei, Taiwan, April 9-11, 2015. (EI)  </li>
+<li>  Bin-Bin Gao, Jianjun Wang, Yao Wang and Chan-Yun Yang, Coordinate descent fuzzy twin support vector machine for classification, In Proc. of IEEE 14th International Conference on Machine Learning and Applications (ICMLA), Miami, Florida, USA, Dec. 2015. (EI) </li>
+<li>  Wei-Che Yu, Chan-Yun Yang, Kuo-Ho Su and Yi-Hong Tu, Dynamic path planning under randomly distributed obstacle environment, In Proc. of 2014 International Automatic Control Conference (CACS 2014), Kaohsiung, Taiwan, Nov. 26-28, 2014. (EI)  </li>
+<li>  Kuo-Ho Su, Syuan-Jie Huang and Chan-Yun Yang, Development of robotic grasping gripper based on smart fuzzy controller, In Proc. of 2014 International Conference on Fuzzy Theory and Its Applications, Kaohsiung, Taiwan, Nov. 26-28, 2014. (EI)  </li>
+<li>  Chan-Yun Yang, Kuo-Ho Su and Gene Eu Jan, An elaboration of sequential minimal optimization for support vector regression, In Proc. of IEEE International Conference on System Science and Engineering (ICSSE 2014), Shanghai, China, July 12-13, 2014. (EI)  </li>
+<li>  楊智旭, 潘星佑, 林韋志, 楊棧雲, 機器人路徑重規劃之DT/VD拓樸結構, 2014臺灣智慧型機器人研討會論文集, 台北, 台灣, June 6-8, 2014. </li>
+<li>  Chan-Yun Yang, Gene Eu Jan and and Kuo-Ho Su, Admissibility of fuzzy support vector machine through loss function, In Proc. of IEEE International Conference on System Science and Engineering (ICSSE 2013), Budapest, Hungary, pp. 75–80, July 4-6, 2013. (EI) </li>
+<li>  Kuo-Ho Su, Minh-Hoang To, and Chan-Yun Yang, Robust tracking controller design and its application to wheeled robot, In Proc. of IEEE International Conference on System Science and Engineering (ICSSE 2013), Budapest, Hungary, pp. 263–268, July 4-6, 2013. (EI) </li>
+<li>   Mohammad Arif, Hooman Samani, Chan-Yun Yang, and Yung-Yuan Chen, Adaptation of mobile robots to intelligent vehicles, In Proc. of 4th IEEE International Conference on Software Engineering and Service Sciences, Beijing, China, pp. 550–553, May 23-25, 2013. (EI) </li>
+<li>  Chan-Yun Yang, Chih-Fu Wu, Hooman Samani, and Pey-Weng Lien, Ergonomic design of an active alert helmet, In Proc. of International Conference on Orange Technologies 2013, Tainan, Taiwan, pp. 151–154, March 12-16, 2013. (EI) </li>
+<li>  Kuo-Ho Su, Feng-Li Lian, and Chan-Yun Yang, Navigation design with svm path planning and fuzzy-based path tracking for wheeled agent, In Proc. of 2012 International Conference on Fuzzy Theory and Its Application, Taichung, Taiwan, November 2012. (EI)  </li>
+<li>  Chan-Yun Yang , Gene Eu Jan, and Yung-Yuan Chen, Robust CMOS camera module lens calibration by support vector machine regression, Proc. SPIE 8759, In Proc. of Eighth International Symposium on Precision Engineering Measurement and Instrumentation (ISPEMI), 875949, Chengdu, China, January 31, 2013. (EI) </li>
+<li>  涂逸宏, 潘星佑, 陳建凱, 張育晨, 楊棧雲, 二節式個人乘具之曳引機構, 第十四屆全國機構與機器設計學術研討會, 中壢, 台灣, 國立中央大學, November 04, 2011. </li>
+<li>  "Jr-Syu Yang, Chiun-Shiang Su, and Chan-Yun Yang, Localization/mapping motion control system for a mobile robot, Proc. SPIE 8321, In Proc. of 7th International Symposium on Precision Engineering Measurements and Instrumentation ISPEMI, Yunnan, China, August 07-11, 2011. (EI)
+
+" </li>
+<li>  張育晨, 陳建凱, 潘星佑, 涂逸宏, 楊棧雲, 個人乘具牽引機構之設計, 機電整合科技應用研討會, 台北, 台灣, 北台灣科學技術學院, July 28, 2011.  </li>
+<li>   JianJun Wang, Chan-Yun Yang, and Baili Chen, Sparse signal recovery based on lq (0 < q ≤ 1) minimization, In Proc. of 2011 International Conference on Multimedia and Signal Processing, Guilin, China, pp. 239–242, May 2011. (EI)  </li>
+<li>  Wen-Wen Tseng, and Chan-Yun Yang, A new application of wireless sensor networks: The integration of Zigbee technology and smoke detectors, In Proc. of 2010 International security technology and Management Conference, Taipei, Taiwan, September 8-11, 2010.  </li>
+<li>  Chan-Yun Yang, Han-Chieh Chiu, Hung-Wei Yeh, Jer-Huan Jang, and Chai-Chun Hsieh, Effect of duty-cycle on the performance of magnetic driven reciprocating pump, In Proc. of 2009 CACS International Automatic Control Conference, Taipei, Taiwan, November 28, 2009.  </li>
+<li>  Jr-Syu Yang, Chan-Yun Yang, and Chia-Hsiao Liu, Offense/defense decision-making controller for a billiard robot, In Proc. of International Conference on Man-Machine Systems (ICoMMS 2009), Penang, Malaysia, October 12, 2009. </li>
+<li>  謝佳君, 楊棧雲, 章哲寰, 邱漢傑, 葉紘維, 微型電磁驅動往復式泵浦之控制器設計, 2009中華民國系統科學與工程會議, Tamsui, Taiwan, 淡江大學, June, 2009.  </li>
+<li>  "Feng-Yi Chou, Chan-Yun Yang, and Jr-Syu Yang, Support vector machine based artificial potential field for autonomous guided vehicle, Proc. of SPIE 7130, In Proc. of Fourth International Symposium on Precision Mechanical Measurements, 71304J, Anhui, China, 2008. (EI)
+
+" </li>
+<li>  Chan-Yun Yang, Jian-Jun Wang, Jr-Syu Yang, and Guo-Ding Yu, Imbalanced SVM learning with margin compensation, Lecture Notes in Computer Science, vol. 5263, pp. 636–644, 2008. (EI) </li>
+<li>  Chan-Yun Yang, Wei-Wen Tseng, and Jr-Syu Yang, Reducing false alarm of video-based smoke detection by support vector machine, Lecture Notes in Computer Science, vol. 5075, pp. 102–113, 2008. (EI) </li>
+<li>  楊棧雲, 楊智旭, 周峰毅, 戴信良, 類別標籤模糊化支持向量機, 第十二屆人工智慧與應用研討會 (TAAI 2007), 雲林：國立雲林科技大學, November, 2007.  </li>
+<li>  戴信良, 楊棧雲, 張柳春, 沃斯回火熱處理初始碳含量之研究探討, 2007 中國材料科學學會年會論文集, 新竹：國立交通大學, November, 2007.  </li>
+<li>  Chan-Yun Yang, Che-Chang Hsu, and Jr-Syu Yang, Learning SVM with varied example cost: a kNN evaluating approach, Lecture Notes in Computer Science, vol. 4456, pp. 326–335, 2007. (EI)  </li>
+<li>  "楊智旭, 鍾武傑, 楊棧雲, 撞球機械人在障礙球局決策之應用, 中國人工智能學會2007年全國學術大會, 哈爾濱, 中國人工智能學會, January 27, 2007.
+" </li>
+<li>  Chan-Yun Yang, Generalization ability in SVM with fuzzy class labels, In Proceedings of International Conference on Computational Intelligence and Security 2006 (CIS 2006), Guangzhou, China, pp. 97–100, November 2006. (EI)  </li>
+<li>  Chan-Yun Yang, Che-Chang Hsu, Jr-Syu Yang, A novel SVM to improve classification for heterogeneous learning samples, In Proceedings of International Conference on Computational Intellignece and Security 2006 (CIS 2006), Guangzhou, China, pp. 172–175, November 2006. (EI)  </li>
+<li>  Jr-Syu Yang, Je-Ting Li, and Chan-Yun Yang, Offensive strategy of a billiard robot, In Proceedings of International Symposium on Artificial Life and Robotics (AROB 11th ’06), B-con Plaza, Beppu, Oita, Japan, January 2006. (ISBN978-4-9902880-0-6) </li>
+<li>  Jr-Syu Yang, Jhih-Yuan Liu, Meng-Tian Shih and Chan-Yun Yang, Intelligent controller design for the dynamic standing behavior of a four-link robot, In Proceedings of International Conference on Man-Machine Systems 2006 (ICoMMS 2006), Langkawi, Malaysia, pp. 5350–5355, September 2006. (ISBN983-42724-8-0)  </li>
+<li>  Zih-Ming Lin, Jr-Syu Yang and Chan-Yun Yang, Grey decision-making for a billiard robot, In Proceedings of 2004 IEEE Conference on System, Man and Cybernetics, Hague, Netherlands, pp. 5350–5355, October 10-13, 2004. (EI) </li>
+<li>  楊棧雲, 周瑞仁, 黃肇湘, 身心障礙翻書輔助器之創新設計, 九十二年度醫學工程年會暨研討會, 台北：陽明大學, December 2003. </li>
+<li>  楊棧雲, 周瑞仁, 支向機在生物技術上之應用與其相關資源, 2003資訊科技在農業之應用研討會論文集, 台北, pp. 91–98, December 2003. </li>
+<li>  周瑞仁, 楊棧雲, 控制工程與生命科學的整合與應用, 2003資訊科技在農業之應用研討會論文集, 台北, pp. 99–104, December 2003. </li>
+<li>  王添毅, 楊智旭, 楊棧雲, 可拓理論在撞球機械人球袋選擇之應用, 中國人工智能學會2003全國學術大會論文集, 廣州, pp. 1160–1165, November 2003.  </li>
+<li>  Chan-Yun Yang, Chou Jui-Jen and Yang Jr-Syu, A method to improve classification performance of ethnic minority classes in k-nearest-neighbor rule, In Proc. of IEEE International Conference on Computational Cybernetics, IEEE SMC Society, Hungary, CD-ROM, August 2003. (ISBN963-7154-18-3)  </li>
+<li>  Chan-Yun Yang, Jui-Jen Chou and Jr-Syu Yang, Class-size impact analysis on k-nearest-neighbor classifier, In Proc. of International Symposium on Automation and Mechatronics of Agricultural and Bioproduction Systems, Chinese Institute of Agricultural Machinery, Taiwan, pp. 50–58, November 2002.  </li>
+<li>  林志明, 鄭健宏, 楊智旭, 楊棧雲, 灰色決策在撞球機械人之應用, 2003中華民國自動控制研討會, 論文編號: 11129, 論文光碟: D10-2, 清雲技術學院, March 2003. </li>
+<li>  Sung, Shao-Chih, Jr-Syu Yang and Chan-Yun Yang, Genetic algorithm and extension controller design of over-load prevention system for a truck crane, In Proc. of The 4th Asian Control Conference (ASCC), Singapore, pp. 1712–1717, September 2002.  </li>
+<li>  宋紹志, 許智翔, 楊智旭, 楊棧雲, 智慧型可拓控制在起重機耦合問題之研究, 第九屆可拓工程年會, 中國人工智能學會, Dalian, China, August 2002.  </li>
+<li>  Chan-Yun Yang, and Jui-Jen Chou, Discrimination model for rotifer shape recognition, In Proc. of the 6th International Conference on Automation Technology, National Taiwan University of Science and Technology, Taipei, pp. 545–555, May 2000.  </li>
+<li>  楊棧雲, 李世榮, 數位語音訊號處理之聲控販賣機, 第十一屆全國自動化科技研討會, 國立中正大學, pp. 471–477, July 1999. </li>
+<li>  楊棧雲, 周瑞仁, 機械視覺用於輪蟲之計數與品質鑑定, 中國機械工程學會第15屆全國學術研討會, 國立成功大學, pp. 205–210, November 1998.  </li>
+<li>  楊棧雲, 周瑞仁, 壺形輪虫之影像辨識, 87年農業機械論文發表會, 國立屏東科技大學, pp. 3.13–14, August 1998.  </li>
+<li>  楊棧雲, 李世榮, 以DSP為基礎的語音辨識聲控機械手臂, 87年度專科學校重點科技專題製作研討會, 台北, 台灣, vol. 1, pp. 11–19, May 1997. (佳作論文奬) </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="researchplans">
+      <div class="w-100">
+        <h2 class="mb-5">研究計畫</h2>
+        <div class="list-group">
+          <li class="list-group-item list-group-item-success">A. 科技部專題研究計畫</li>
+          <table class="table table-bordered">
+            <tbody>
+              <tr><td>以寬度學習為基礎的線上旋轉機械負載適應故障診斷, MOST 108-2221-E-305-012, 2019/08/01 至 2020/07/31 </td></tr>
+              <tr><td>樣本權重之近場衰減與支持向量迴歸, MOST 107-2221-E-305-017, 2018/08/01 至 2019/10/31 </td></tr>
+              <tr><td>肌少症與脊椎疾病研究：從臨床與基礎、診斷與復健器材研發、到物理治療策略評估－子計畫四:肌少症功能篩檢指標建立與混合實境式動作功能評估系統之開發,MOST 107-2221-E-182-018-MY3,   2018/08/01 至 2021/07/31 </td></tr>     
+              <tr><td>銀髮族智慧健康檢測系統之開發與臨床測試, MOST 106-2218-E-182-007-MY3,  2017/10/01 至 2020/09/30 </td></tr>
+              <tr><td>基於反饋物聯網子項目2的移動輔助設備的設計和效果評估：銀髮人的動態運動檢測與預警系統設計,MOST 106-2221-E-305-001, 2017/08/01 to 2019/07/31 </td></tr>  
+              <tr><td>線性二次調制器回饋運動規劃之車輪滑移自主控制, MOST 104-2221-E-305-003, 2015/08/01 至 2016/07/31</td></tr>
+              <tr><td>運用於二輪式機器人之室內視覺導航系統, MOST 103-2221-E-032-040, 2014/08/01 至 2015/10/31 </td></tr>
+              <tr><td>即時機器人路徑重規劃 - 動態障礙之計算幾何拓樸配置, NSC 102-2221-E-305-006, 2013/08/01 至 2014/07/31 </td></tr>
+              <tr><td>自動感應警示安全帽之雛型開發, NSC 101-2218-E-305-001, 2012/04/01 至2012/10/31</td></tr>
+              <tr><td>動態環境下之大邊限安全平滑機器人路徑規劃, NSC 100-2221-E-305-015, 2011/08/01 至 2012/09/30 </td></tr>
+              <tr><td>安全帽自動感應警示, NSC 100-2218-E-149-002, 2011/06/01至 2012/03/31</td></tr>
+              <tr><td>支持向量機損失函數調控, NSC 99-2221-E-149-009, 2010/08/01 至 2011/08/31</td></tr>
+              <tr><td>安全平滑的機器人路徑規劃−基於大邊限支向機之研究, NSC 98-2221-E-149-001, 2009/08/01 至 2010/07/31</td></tr>
+              <tr><td>開發智慧化居住空間火警自動警報感測網路−住宅偵煙探測器與Zigbee無線傳輸整合技術, 2009/02/01 至 2009/12/31 </td></tr>
+              <tr><td>模糊調控支持向量機−類別標籤模糊化, NSC 95-2221-E-149-016, 2006/08/01 至 2007/07/31</td></tr>
+              <tr><td>身心障礙翻書輔助器, NSC 91-2213-E-149-003, 2002/08/01 至 2003/07/31</td></tr>
+              <tr><td>具自我學習能力類生化機器人(動物)研究計畫(I), NSC 91-2213-E-008-020, 2002/08/01 至 2003/12/31 </td></tr>
+              <tr><td>翻書輔助器, 2001/10/28 至 2002/06/25 </td></tr>
+            </tbody>
+          </table>
+         <li class="list-group-item list-group-item-secondary">B. 產學合作計畫</li>
+          <table class="table table-bordered">
+            <tbody>
+              <tr><td>EtherCAT 通訊協定發展與應用設備整合計畫 - 第一期, 主持人, 2016/08/01 to 2016/12/31, 維田科技股份有限公司</td></tr>
+              <tr><td>EtherCAT 通訊協定發展與應用設備整合計畫 - 第二期, 主持人, 2017/02/01 to 2017/07/31, 維田科技股份有限公司</td></tr>
+              <tr><td>EtherCAT 通訊協定發展與應用設備整合計畫 - 第三期, 主持人, 2018/05/01 to 現在 , 維田科技股份有限公司</td></tr>
+              <tr><td>智慧製造跨校跨域教學策略聯盟計畫 – 第一期, 伙伴學校主持人, 2017/09/01 to 2019/01/31, 教育部</td></tr>
+              <tr><td>智慧製造跨校跨域教學策略聯盟計畫 – 第二期, 伙伴學校主持人, 2019/02/01 to 2020/01/31, 教育部</td></tr>
+            </tbody>
+          </table>
+          <li class="list-group-item list-group-item-info">C. 指導學生專題研究計畫</li>
+          <table class="table table-bordered">
+            <tbody>
+              <tr><td>LED 互動滑板, NSC 103-2815-C-305-009-E, 李宗哲, 行政院科技部, 大專學生參與專題研究計畫, 2014/07/01 至 2015/02/28, 指導教授</td></tr>
+              <tr><td>節能個人乘具之動力牽引機構, NSC 99-2815-C-149-011-E, 涂逸宏, 行政院國家科學委員會, 大專學生參與專題研究計畫, 2010/08/01 至 2011/02/29,  指導教授</td></tr>
+              <tr><td>利用間隔補償之不平衡支向機學習, NSC 96-2815-C-149 -012 -E, 連瑞良, 行政院國家科學委員會, 大專學生參與專題研究計畫, 2007/08/01 至 2008/2/29, 指導教授 </td></tr>
+              <tr><td>多光譜發光二極體顯微鏡光源機構, NSC 96-2815-C-149 -005 -E, 張維城, 行政院國家科學委員會, 大專學生參與專題研究計畫, 2007/08/01 至 2008/2/29, 指導教授 </td></tr>
+              <tr><td>遠端遙控自走式掃除機器人, NSC 89-2815-C-149-003-E, 賴常文, 行政院國家科學委員會, 大專學生參與專題研究計畫, 2000/08/01 至 2001/02/28, 指導教授 </td></tr>
+              <tr><td>單晶片語音辨識販賣機之研製, NSC 88-2815-C-149-002-E, 何志華, 行政院國家科學委員會, 大專學生參與專題研究計畫, 1999/08/01 至 2000/02/28, 指導教授 </td></tr>
+              <tr><td>語音辦識聲控機械手臂之研製, NSC 87-2815-C-149-002-E , 李謀佳, 行政院國家科學委員會, 大專學生參與專題研究計畫, 1998/08/01 至 1999/02/28, 指導教授 </td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+   <hr class="m-0">
+       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="family">
+      <div class="w-100">
+        <h2 class="mb-5">實驗室花絮</h2>
+        <div class="row featurette">
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+    <img src="img/Events/2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+    <img src="img/Events/4.jpg" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">3 /8</div>
+    <img src="img/Events/7.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">4 / 8</div>
+    <img src="img/Events/8.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+    <img src="img/Events/9.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6/ 8</div>
+    <img src="img/Events/11.jpg" style="width:100%">
+  </div>
+    <div class="mySlides">
+    <div class="numbertext">7 /8</div>
+    <img src="img/Events/10.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 8</div>
+    <img src="img/Events/6.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+    <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/Events/2.jpg" style="width:100%" onclick="currentSlide(1)" alt="行业曝光">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Events/4.jpg" style="width:100%" onclick="currentSlide(2)" alt="在实验室里">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Events/7.jpg" style="width:100%" onclick="currentSlide(3)" alt="研究展览">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Events/8.jpg" style="width:100%" onclick="currentSlide(4)" alt="研究同事">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Events/9.jpg" style="width:100%" onclick="currentSlide(5)" alt="友好的气氛">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/Events/11.jpg" style="width:100%" onclick="currentSlide(6)" alt="我们的社区">
+    </div>
+        <div class="column">
+      <img class="demo cursor" src="img/Events/10.jpg" style="width:100%" onclick="currentSlide(7)" alt="沿着自然">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/Events/6.jpg" style="width:100%" onclick="currentSlide(8)" alt="好玩">
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>
